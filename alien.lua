@@ -3,7 +3,7 @@ local MarketplaceService = game:GetService("MarketplaceService")
 local Debris = game:GetService("Debris")
 local LogService = game:GetService("LogService")
 
-local WEBHOOK = getfenv().WEBHOOK
+-- local WEBHOOK = getfenv().WEBHOOK
 
 local function recurse(t, f, search, depth)
 	search = search or {}
